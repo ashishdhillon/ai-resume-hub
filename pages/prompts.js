@@ -1,0 +1,1 @@
+export default function Prompts(){return <div className='p-10'>Prompts Page</div>}

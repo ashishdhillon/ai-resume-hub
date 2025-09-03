@@ -1,0 +1,1 @@
+export default function Jobs(){return <div className='p-10'>Jobs & Blog Page</div>}

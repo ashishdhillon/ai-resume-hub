@@ -1,0 +1,2 @@
+export default function handler(req,res){const{q,category}=req.query;
+res.status(200).json({query:q||'',category:category||'Resume',results:[{id:1,title:`Sample result for ${q||'query'} in ${category}`},{id:2,title:`Another AI prompt for ${category}`}]})}
